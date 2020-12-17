@@ -124,3 +124,44 @@ var obj = {
 }
 
 //END CHANGING BUTTON COLORS WITH SWITCH CASE 
+
+//START TOGGLE MUSIC
+
+//Saxophone
+let isplay = '';
+saxBtn.addEventListener('click',()=>{
+    const playmusic = ()=>{
+        isplay = true;
+        console.log('play music');
+        document.getElementById('saxophone').play();
+    };
+    const pausemusic = ()=>{
+        isplay = false;
+        document.getElementById('saxophone').pause();
+    };
+    if(isplay){
+      pausemusic();
+    }else{
+      playmusic();
+    };
+});
+//end Saxophone
+
+//Guitar
+guitarBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('guitar').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('guitar').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Guitar
