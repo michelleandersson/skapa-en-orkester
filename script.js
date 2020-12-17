@@ -1,10 +1,10 @@
 // Dessa funktioner körs när en knapp blir klickad. Gå in i HTML-filen
 // för att kika hur det hänger ihop!
 
-const toggleAudio = sound => {
-    //Här skriver du kod för att växla mellan att ljudet
-    //spelas eller pausas.
-}
+// const toggleAudio = sound => {
+//     Här skriver du kod för att växla mellan att ljudet
+//     spelas eller pausas.
+// }
 
 // const toggleButtonColor = button => {
 //   let saxBtn = document.getElementById('saxBtn'); 
@@ -40,85 +40,85 @@ const toggleAudio = sound => {
 })
 
 var obj = {
-  saxBtn: function() { 
+  saxBtn: function() {
     let saxBtn = document.getElementById('saxBtn'); 
-    if (saxBtn.style.backgroundColor = 'orange') {
-      saxBtn.style.backgroundColor = 'green'; 
-    } ;
-    if (saxBtn.style.backgroundColor = 'green') {
+    if (saxBtn.style.backgroundColor == 'green') {
       saxBtn.style.backgroundColor = 'orange'; 
+    } 
+    else {
+      saxBtn.style.backgroundColor = 'green'; 
     };
   },
   guitarBtn: function() {
     let guitarBtn = document.getElementById('guitarBtn'); 
-    if (guitarBtn.style.backgroundColor = 'orange') {
-      guitarBtn.style.backgroundColor = 'green'; 
+    if (guitarBtn.style.backgroundColor == 'green') {
+      guitarBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      guitarBtn.style.backgroundColor = 'orange'; 
+      guitarBtn.style.backgroundColor = 'green'; 
     };
   },
   pianoBtn: function() {
     let pianoBtn = document.getElementById('pianoBtn'); 
-    if (pianoBtn.style.backgroundColor = 'orange') {
-      pianoBtn.style.backgroundColor = 'green'; 
+    if (pianoBtn.style.backgroundColor == 'green') {
+      pianoBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      pianoBtn.style.backgroundColor = 'orange'; 
+      pianoBtn.style.backgroundColor = 'green'; 
     };
   },
   trumpetBtn: function() {
     let trumpetBtn = document.getElementById('trumpetBtn'); 
-    if (trumpetBtn.style.backgroundColor = 'orange') {
-      trumpetBtn.style.backgroundColor = 'green'; 
+    if (trumpetBtn.style.backgroundColor == 'green') {
+      trumpetBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      trumpetBtn.style.backgroundColor = 'orange'; 
+      trumpetBtn.style.backgroundColor = 'green'; 
     };
   },
   violinBtn: function() {
     let violinBtn = document.getElementById('violinBtn'); 
-    if (violinBtn.style.backgroundColor = 'orange') {
-      violinBtn.style.backgroundColor = 'green'; 
+    if (violinBtn.style.backgroundColor == 'green') {
+      violinBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      violinBtn.style.backgroundColor = 'orange'; 
+      violinBtn.style.backgroundColor = 'green'; 
     };
   },
   banjoBtn: function() {
     let banjoBtn = document.getElementById('banjoBtn'); 
-    if (banjoBtn.style.backgroundColor = 'orange') {
-      banjoBtn.style.backgroundColor = 'green'; 
+    if (banjoBtn.style.backgroundColor == 'green') {
+      banjoBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      banjoBtn.style.backgroundColor = 'orange'; 
+      banjoBtn.style.backgroundColor = 'green'; 
     };
   },
   drumsBtn: function() {
     let drumsBtn = document.getElementById('drumsBtn'); 
-    if (drumsBtn.style.backgroundColor = 'orange') {
-      drumsBtn.style.backgroundColor = 'green'; 
+    if (drumsBtn.style.backgroundColor == 'green') {
+      drumsBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      drumsBtn.style.backgroundColor = 'orange'; 
+      drumsBtn.style.backgroundColor = 'green'; 
     };
   }, 
   voicesBtn: function() {
     let voicesBtn = document.getElementById('voicesBtn'); 
-    if (voicesBtn.style.backgroundColor = 'orange') {
-      voicesBtn.style.backgroundColor = 'green'; 
+    if (voicesBtn.style.backgroundColor == 'green') {
+      voicesBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      voicesBtn.style.backgroundColor = 'orange'; 
+      voicesBtn.style.backgroundColor = 'green'; 
     };
   }, 
   bellBtn: function() {
     let bellBtn = document.getElementById('bellBtn'); 
-    if (bellBtn.style.backgroundColor = 'orange') {
-      bellBtn.style.backgroundColor = 'green'; 
+    if (bellBtn.style.backgroundColor == 'green') {
+      bellBtn.style.backgroundColor = 'orange'; 
     } 
     else {
-      bellBtn.style.backgroundColor = 'orange'; 
+      bellBtn.style.backgroundColor = 'green'; 
     };
   }
 }
