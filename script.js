@@ -42,16 +42,16 @@ const toggleAudio = sound => {
 var obj = {
   saxBtn: function() { 
     let saxBtn = document.getElementById('saxBtn'); 
-    if (saxBtn.style.backgroundColor == 'orange') {
+    if (saxBtn.style.backgroundColor = 'orange') {
       saxBtn.style.backgroundColor = 'green'; 
-    } 
-    else {
+    } ;
+    if (saxBtn.style.backgroundColor = 'green') {
       saxBtn.style.backgroundColor = 'orange'; 
     };
   },
   guitarBtn: function() {
     let guitarBtn = document.getElementById('guitarBtn'); 
-    if (guitarBtn.style.backgroundColor == 'orange') {
+    if (guitarBtn.style.backgroundColor = 'orange') {
       guitarBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -60,7 +60,7 @@ var obj = {
   },
   pianoBtn: function() {
     let pianoBtn = document.getElementById('pianoBtn'); 
-    if (pianoBtn.style.backgroundColor == 'orange') {
+    if (pianoBtn.style.backgroundColor = 'orange') {
       pianoBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -69,7 +69,7 @@ var obj = {
   },
   trumpetBtn: function() {
     let trumpetBtn = document.getElementById('trumpetBtn'); 
-    if (trumpetBtn.style.backgroundColor == 'orange') {
+    if (trumpetBtn.style.backgroundColor = 'orange') {
       trumpetBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -78,7 +78,7 @@ var obj = {
   },
   violinBtn: function() {
     let violinBtn = document.getElementById('violinBtn'); 
-    if (violinBtn.style.backgroundColor == 'orange') {
+    if (violinBtn.style.backgroundColor = 'orange') {
       violinBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -87,7 +87,7 @@ var obj = {
   },
   banjoBtn: function() {
     let banjoBtn = document.getElementById('banjoBtn'); 
-    if (banjoBtn.style.backgroundColor == 'orange') {
+    if (banjoBtn.style.backgroundColor = 'orange') {
       banjoBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -96,7 +96,7 @@ var obj = {
   },
   drumsBtn: function() {
     let drumsBtn = document.getElementById('drumsBtn'); 
-    if (drumsBtn.style.backgroundColor == 'orange') {
+    if (drumsBtn.style.backgroundColor = 'orange') {
       drumsBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -105,7 +105,7 @@ var obj = {
   }, 
   voicesBtn: function() {
     let voicesBtn = document.getElementById('voicesBtn'); 
-    if (voicesBtn.style.backgroundColor == 'orange') {
+    if (voicesBtn.style.backgroundColor = 'orange') {
       voicesBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -114,7 +114,7 @@ var obj = {
   }, 
   bellBtn: function() {
     let bellBtn = document.getElementById('bellBtn'); 
-    if (bellBtn.style.backgroundColor == 'orange') {
+    if (bellBtn.style.backgroundColor = 'orange') {
       bellBtn.style.backgroundColor = 'green'; 
     } 
     else {
@@ -165,3 +165,136 @@ guitarBtn.addEventListener('click',()=>{
   };
 });
 //End Guitar
+
+//Piano
+pianoBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('piano').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('piano').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Piano
+
+//Trumpet
+trumpetBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('trumpet').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('trumpet').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Trumpet
+
+//Violin
+violinBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('violin').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('violin').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Violin
+
+//Banjo
+banjoBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('banjo').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('banjo').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Banjo
+
+//Drums
+drumsBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('drums').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('drums').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Drums
+
+//Voices
+voicesBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('voices').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('voices').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Voices
+
+//Bell
+bellBtn.addEventListener('click',()=>{
+  const playmusic = ()=>{
+      isplay = true;
+      console.log('play music');
+      document.getElementById('bell').play();
+  };
+  const pausemusic = ()=>{
+      isplay = false;
+      document.getElementById('bell').pause();
+  };
+  if(isplay){
+    pausemusic();
+  }else{
+    playmusic();
+  };
+});
+//End Bell
