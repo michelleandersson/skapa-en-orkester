@@ -1,13 +1,13 @@
 /*Styling for hela sidan*/
 body {
-  background-color: lightblue;
+  background-color: rgb(138, 177, 190);
   margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Styling för headern  */
 header {
-  background-color: darkblue;
+  background-color: rgb(2, 55, 99);
   padding: 40px;
   color: white;
   text-align: center;
